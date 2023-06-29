@@ -5,7 +5,7 @@
 .offer{
     @apply bg-beta px-4 md:h-52 shadow-2xl my-5 md:my-0 py-4;
 }
-.sponsor-img{
+/* .sponsor-img{
     @apply m-auto h-16 w-16;
 }
 .sponsor-box{
@@ -13,4 +13,4 @@
 }
 .sponsor-text{
     @apply text-xl font-semibold text-center;
-}
+} */
