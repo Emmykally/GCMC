@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.offer{
+    @apply bg-beta px-4 md:h-52 shadow-2xl my-5 md:my-0 py-4;
+}
+.sponsor-img{
+    @apply m-auto h-16 w-16;
+}
+.sponsor-box{
+    @apply bg-sponsor p-4 mt-4 ;
+}
+.sponsor-text{
+    @apply text-xl font-semibold text-center;
+}

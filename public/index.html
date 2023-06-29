@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="50x50" href="img/favicon.png">
+    <title>GCMC</title>
+</head>
+<body>
+   <!-- <header>
+        <nav class="flex justify-between mt-4 ">
+            <div class="h-16 w-16">
+                <img src="img/logo.png" alt="news company logo">
+            </div>
+            <img src="img/icon-menu.svg" alt="" class="h-6 w-6 md:hidden z-10" id="menu-open">
+            
+            <div class="" id="nav-menu">
+                <ul class="flex md:flex-row flex-col md:items-center pl-6 gap-8 md:gap-0">
+                    <li class="md:pr-7 md:my-0"><a href="#">Home</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#">About Us</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#">Contact Us</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#">Categories</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>-->
+    <header class="">
+        <nav class="flex justify-between mt-2">
+            <div class="w-32">
+                <img src="img/logo.png" alt="gcmc logo" class="w-full">
+            </div>
+            <img src="img/icon-menu.svg" alt="" class="h-8 w-8 md:hidden z-10 mr-4 mt-5" id="menu-open">
+            
+            <div class="md:static md:visible absolute md:mt-3 md:block right-0 top-0 flex items-center px-5 h-screen md:h-0 w-3/4 md:w-auto  bg-white" id="nav-menu">
+                <ul class="flex md:flex-row flex-col md:items-center pl-6 gap-8 md:gap-0 font-bold">
+                    <li class="md:pr-7 md:my-0"><a href="#">Home</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#about">About us</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#what-we-offer">What we Offer</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#footer">Contact us</a></li>
+                    <li class="md:pr-7 md:my-0"><a href="#sponsorship">Sponsor</a></li>
+                    
+                </ul>
+            </div>
+            <!-- <div class="md:hidden">
+                <img src="img/icon-menu.svg" alt="" class="h-6 w-6" id="menu-open">
+            </div> -->
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <!-- <div class="relative bg-[url('/public/img/hero2.jpg')] bg-cover bg-center h-screen w-screen">
+            </div> -->
+            <div class="relative mb-6 -z-10">
+                <img src="./img/bg1.png" alt="Background Image" class="w-full h-[80vh]  object-cover object-center">
+                <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10"></div>
+                <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center text-center">
+                    <div class="px-2">
+                        <h1 class="text-white text-5xl font-bold">Unleash the Power of Gospel Music</h1>
+                        <h2 class="text-white text-lg pt-2">Join the Celebration at the Gospel Choir Music Competition</h2>
+                        <p class="text-white text-lg">Experience the soul-stirring melodies, powerful harmonies, and contagious enthusiasm of gospel music</p>
+                        <button class="bg-dark px-4 py-2 rounded-md">Sponsor Us</button>
+                    </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="about">   
+            <div class="mx-6 mt-8">
+            <div> <h1 class="text-4xl font-bold text-center">About Us</h1></div>
+                <div class="md:flex md:flex-row md:gap-x-4 mt-5">
+                    <div class="h-44 w-full md:h-72 md:w-1/2">
+                        <img src="./img/hero.jpg" alt="a photo of people worshiping" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-2xl text-center font-bold">GCMC in a Nutshell</h2>
+                        <p class="leading-8">At the Gospel Choir Music Competition, we are dedicated to showcasing the extraordinary talents and the 
+                            boundless power of gospel music. We believe in the profound impact this genre has on 
+                            individuals and communities, and we strive to create a platform that celebrates its beauty, 
+                            energy, and transformative nature. Our competition is not just a contest; it's a celebration of faith, 
+                            resilience, and the undeniable joy that gospel music brings. It is a vibrant gathering of voices, 
+                            where harmonies intertwine and melodies soar, transcending barriers and creating a truly memorable experience for all.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="what-we-offer">
+            <div class="my-16">
+                <div><h1 class="text-4xl font-bold text-center">What we Offer</h1></div>
+                <div class="md:grid md:grid-cols-3 gap-3 mx-7 my-4">
+                    <div class="offer">
+                        <h3 class="text-base font-bold text-center">Inspiring Performances</h3>
+                        <p>Get ready to be captivated by awe-inspiring performances
+                             from talented gospel choirs. Each choir brings its unique 
+                             flair and interpretation to the stage, creating an atmosphere 
+                             charged with energy and emotion.</p>
+                    </div>
+                    <div class="offer">
+                        <h3 class="text-base font-bold text-center">Friendly Competition</h3>
+                        <p>Our competition serves as a friendly forum where choirs can 
+                            compete in a supportive environment. It's not just about winning; 
+                            it's about fostering camaraderie, sharing musical expertise, 
+                            and celebrating the collective love for gospel music.</p>
+                    </div>
+                    <div class="offer">
+                        <h3 class="text-base font-bold text-center">Judging and Feedback</h3>
+                        <p>A panel of esteemed judges, with extensive experience in the gospel 
+                            music industry, carefully evaluates each performance. Their constructive 
+                            feedback helps choirs grow and refine their musical skills.</p>
+                    </div>
+                    <div class="offer">
+                        <h3 class="text-base font-bold text-center">Networking Opportunities</h3>
+                        <p>Connect with other gospel music enthusiasts, industry professionals, 
+                            and fellow choir members. Share ideas, collaborate, and expand your 
+                            network in the vibrant gospel music community</p>
+                    </div>
+                    <div class="offer">
+                        <h3 class="text-base font-bold text-center">Community Engagement</h3>
+                        <p>We believe in giving back. Through our competitions, we actively support 
+                            charitable causes, partnering with organizations that strive to make a positive 
+                            impact on society. Together, we can make a difference through the power of gospel music.</p>
+                    </div>
+                    <div class="offer">
+                        <h3 class="text-base font-bold text-center">Unforgettable Experiences</h3>
+                        <p>In addition to providing a platform for choirs to showcase their musical 
+                            abilities, the Gospel Choir Music Competition offers a unique and 
+                            unforgettable experience for the audience. We curate an atmosphere of celebration, 
+                            where spectators are immersed in the contagious energy and profound emotions of gospel music.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sponsorship">
+            <div>
+                <div><h1 class="text-3xl md:text-4xl font-bold text-center">Join Us as a Sponsor</h1></div>
+                <div class="md:flex">
+                    <div class="md:w-2/5 m-6 md:m-0">
+                        <div class="w-full h-full flex justify-center items-center">
+                            <img src="./img/image4.jpg" alt="people singing" class="h-3/4 m-auto">
+                        </div>    
+                    </div>
+                    <div class="md:w-1/2 md:grid md:grid-cols-2 gap-4 m-auto w-full px-6 md:px-0">
+                        <div class="sponsor-box">
+                            <div class="sponsor-img"><img src="./img/brand.png" alt="brand exposure icon" class="w-full h-full"></div>
+                            <h3 class="sponsor-text">Brand Exposure</h3>
+                            <p class="text-center text-base">Gain extensive brand visibility by sponsoring the Gospel Choir Music Competition, 
+                                reaching a diverse audience of gospel music enthusiasts, choir members, and community members.</p>
+                        </div>
+                        <div class="sponsor-box">
+                            <div class="sponsor-img"><img src="./img/community.png" alt="Community Engagement icon" class="w-full h-full"></div>
+                            <h3 class="sponsor-text">Community Engagement</h3>
+                            <p class="text-center">Show your commitment to the community by supporting the competition, providing valuable 
+                                opportunities to talented choirs, and contributing to cultural enrichment and growth.</p>
+                        </div>
+                        <div class="sponsor-box">
+                            <div class="sponsor-img"><img src="./img/association.png" alt="Meaningful Association icon" class="w-full h-full"></div>
+                            <h3 class="sponsor-text">Meaningful Association</h3>
+                            <p class="text-center"> Align your brand with the positive values and emotional resonance of gospel music, demonstrating
+                                 your dedication to spreading joy, inspiration, and hope.</p>
+                        </div>
+                        <div class="sponsor-box">
+                            <div class="sponsor-img"><img src="./img/networking.png" alt="Networking Opportunities icon" class="w-full h-full"></div>
+                            <h3 class="sponsor-text">Networking Opportunities</h3>
+                            <p class="text-center"> Engage with influential professionals and industry experts in the gospel music community, 
+                                building meaningful connections and expanding your network.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="celebration">
+            <div class="relative mx-5 md:mx-0 my-6">
+                <img src="./img/image1.jpg" alt="Background Image" class="w-full h-[70vh]  object-cover object-center">
+                <div class="absolute top-0 left-0 w-full h-full bg-black opacity-80"></div>
+                <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center text-center">
+                    <div>
+                        <h1 class="text-secondary text-3xl md:text-5xl font-bold">Join the Celebration</h1>
+                        <p class="text-white text-lg p-3">Whether you're a member of a choir, a passionate gospel music lover, or simply curious about this dynamic genre, we invite you to join us at the Gospel Choir Music Competition. Immerse yourself in an atmosphere of joy, inspiration, and harmony as talented choirs lift their voices in praise.</p>
+                        <p class="text-red-600 text-lg p-3 font-bold">Registration Starting Soon....</p>
+                    </div>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="flex flex-col justify-center items-center md:flex-row md:gap-24 md:px-24 bg-beta p-6">
+            <div class="">
+                <img src="./img/logo.png" alt="gcmc logo" class="h-20 w-20 object-cover">
+                <div class="flex">
+                    <img src="./img/icon-facebook.svg" alt="facebook logo" class="h-6 w-6">
+                    <img src="./img/icon-instagram.svg" alt="instagram logo" class="h-6 w-6">
+                    <img src="./img/icon-twitter.svg" alt="twitter logo" class="h-6 w-6">
+                    <img src="./img/icon-youtube.svg" alt="youtube logo" class="h-6 w-6">
+                </div>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <h4 class="text-xl font-semibold pb-2 text-center text-secondary">Contact Us</h4>
+                <p class="pb-2">Abuja Nigeria</p>
+                <p>Donations by Call</p>
+                <div class="flex">
+                    <img src="./img/icon-phone.png" alt="phone logo" class="h-6 w-6">
+                    <p>08179661391, 08083067849</p>
+                </div>
+                <div class="flex pt-3">
+                    <img src="./img/icon-mail.png" alt="phone logo" class="h-6 w-6">
+                    <p>gcmcnigeria@gmail.com</p>
+                </div>
+            </div>
+            <div class="mt-4 md:mt-0">
+                <h4 class="text-xl font-semibold pb-2 text-secondary">Links</h4>
+                <ul>
+                    <li class="py-1.5"><a href="#">Home</a></li>
+                    <li class="py-1.5"><a href="#">About us</a></li>
+                    <li class="py-1.5"><a href="#">What we Offer</a></li>
+                    <li class="py-1.5"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="">
+                <img src="./img/logo.png" alt="gcmc logo" class="h-36 w-30">
+                <div class="flex justify-center items-center">
+                    <img src="./img/icon-facebook.svg" alt="facebook logo" class="h-6 w-6">
+                    <img src="./img/icon-instagram.svg" alt="instagram logo" class="h-6 w-6">
+                    <img src="./img/icon-twitter.svg" alt="twitter logo" class="h-6 w-6">
+                    <img src="./img/icon-youtube.svg" alt="youtube logo" class="h-6 w-6">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
