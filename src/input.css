@@ -9,7 +9,7 @@
     @apply m-auto h-16 w-16;
 }
 .sponsor-box{
-    @apply bg-sponsor p-4 mt-4 block;
+    @apply bg-sponsor p-4 mt-4;
 }
 .sponsor-text{
     @apply text-xl font-semibold text-center;
